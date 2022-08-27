@@ -1,0 +1,50 @@
+@mixin redButton {
+    padding: 16px 25px;
+    background-color: #BA4270;
+    box-shadow: 10px 10px 25px -10px #36536B40;
+    font-family: ' Public Sans';
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: -0.11538461595773697px;
+    text-align: left;
+    border-radius: 24px;
+    color: #FBFCFE;
+
+    &:hover {
+        background-color: #DA6D97;
+    }
+
+    &:active {
+        background-color: #BA4270;
+
+    }
+}
+
+@mixin blackButton {
+    padding: 15px 32px;
+    background-color: #1B262F;
+    color: #FBFCFE;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: -0.115385px;
+    border-radius: 5px;
+    border: 1px solid #FBFCFE;
+
+
+    &:hover {
+        border: 1px solid #707275;
+        background-color: #FFFFFF;
+        color: #1B262F;
+    }
+
+    &:active {
+        border: 1px solid #707275;
+        background-color: #1B262F;
+        color:  #707275;
+    }
+}
